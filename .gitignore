@@ -7,5 +7,6 @@ __pycache__/
 .pytest_cache/
 
 app/model/data
+app/model.pkl
 
 train-model.ipynb
