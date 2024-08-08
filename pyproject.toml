@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "us-foods-interview"
+version = "0.1.0"
+description = ""
+authors = ["Peter Skipper <peter.skipper@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.0.0"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.1"
+fastapi = {extras = ["standard"], version = "^0.112.0"}
+black = "^24.8.0"
+pytest = "^8.3.2"
+pylint = "^3.2.6"
+mypy = "^1.11.1"
+pandas-stubs = "^2.2.2.240807"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.8"]
+build-backend = "poetry.core.masonry.api"

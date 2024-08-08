@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+
+.idea/
+.ipynb_checkpoints/
+.mypy_cache/
+.pytest_cache/
+
+app/model/data
+
+train-model.ipynb
